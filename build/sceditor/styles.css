@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,body,p,code:before,table {
+	margin:0;
+	padding:0;
+	font-family:'Roboto',Sans-Serif;
+	font-size:14px;
+	color:#838383;
+}
+html {
+	height:100%;
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+}
+body {
+	position:relative;
+	overflow:auto;
+	min-height:100%;
+	word-wrap:break-word;
+}
+table,td {
+	border:1px dotted #000;
+	empty-cells:show;
+}
+code.phpcodeblock:before {
+	content:'PHP Code:'!important;
+}
+.ie6 code,.ie7 code {
+	margin-top:0;
+}
+.hide {
+	box-shadow:0 1px 2px rgba(0,0,0,.2);
+	border-radius:2px;
+	border:2px solid #348423;
+	background:#202020;
+	padding:10px;
+	font-size:13px;
+}
+.hide:before {
+	content:"Content Unlocked";
+	display:block;
+	color:#348423;
+	font-weight:bold;
+	font-family:'Roboto',sans-serif;
+	font-size:13px;
+}
+code:before,code {
+	display:block;
+	text-align:left;
+}
+blockquote {
+	border:1px solid #2f2f2f;
+	margin:0;
+	background:#232323;
+	padding:10px;
+}
+blockquote cite {
+	font-style:normal;
+	display:block;
+	padding:8px;
+	margin:-10px -10px 10px;
+	background-color:#292929;
+	font-family:"Roboto Condensed";
+}
+blockquote cite span {
+	float:right;
+	font-weight:normal;
+	font-size:12px;
+	color:#515151
+}
+blockquote cite span.highlight {
+	float:none;
+	font-weight:500;
+	padding-bottom:0
+}
+code {
+    font-family: "Roboto";
+    font-size: 13px !important;
+    padding: 10px;
+    position: relative;
+    background: #232323;
+    margin: .25em .05em 0 0;
+    border-left: 3px solid #2c2c2c;
+    white-space: pre;
+    display: block;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+}
+code:before {
+	border-bottom:1px solid #303030;
+	font-weight:500;
+	padding:9px;
+	margin:-15px -15px 15px;
+	font-size:15px;
+	background-color:#496581;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:"Roboto Condensed";
+	text-shadow: 1px 1px 1px #34475a;
+}
+hr { border: 1px solid #363636;border-radius: 2px; }
+.codeblock code {
+	overflow:auto;
+	height:auto;
+	max-height:200px;
+	display:block;
+	font-family:'Roboto',sans-serif;
+	font-size:14px
+}
+div {
+	min-height:1.25em;
+}
+h1,h2,h3,h4,h5,h6 {
+	padding:0;
+	margin:0;
+}
+ul,ol {
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0;
+	padding-bottom:0;
+}
+img {
+	max-width:100%;
+}
